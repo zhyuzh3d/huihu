@@ -1,3 +1,1 @@
-# huihu
-hir
-hello-world innovation & research club��
+HiR慧湖创研
