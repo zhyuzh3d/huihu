@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="10knet.com">
+    <serverData>
+      <paths name="10knet.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/huihuhir" local="$PROJECT_DIR$" web="/huihuhir" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
