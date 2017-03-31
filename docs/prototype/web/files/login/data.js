@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"login.html",
-  "generationDate":new Date(1490788445362.8),
+  "generationDate":new Date(1490938398361.7),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -90,38 +90,71 @@
           "images":{
             "normal~":"images/login/u2.png"}},
 {
-          "id":"cd8fa56fb6ec4a2a8fbd508891585a6d",
-          "label":"",
-          "type":"imageBox",
-          "styleType":"imageBox",
+          "id":"e05eb724055c4012b6dd8663bd40d53f",
+          "label":"logo",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
           "visible":true,
           "style":{
             "location":{
               "x":310,
               "y":10},
             "size":{
-              "width":100,
-              "height":60}},
+              "width":10,
+              "height":10}},
           "adaptiveStyles":{
 },
-          "objects":[{
-              "id":"23e5b3c0b73a43239948816bb0dbf75c",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":310,
-                  "y":10},
-                "size":{
-                  "width":100,
-                  "height":60}},
-              "adaptiveStyles":{
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 新窗口/标签页 打开 pc端",
+                      "target":{
+                        "targetType":"page",
+                        "url":"pc端.html",
+                        "includeVariables":true},
+                      "linkType":"new"}]}]}},
+          "tabbable":true,
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"83de1c73484f4aa192c1ba7d5a392539",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"cd8fa56fb6ec4a2a8fbd508891585a6d",
+                  "label":"",
+                  "parentDynamicPanel":"e05eb724055c4012b6dd8663bd40d53f",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":100,
+                      "height":60}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"23e5b3c0b73a43239948816bb0dbf75c",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"e05eb724055c4012b6dd8663bd40d53f",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":100,
+                          "height":60}},
+                      "adaptiveStyles":{
 }}],
-          "images":{
-            "normal~":"images/pc端/u4.jpg"}},
+                  "images":{
+                    "normal~":"images/pc端/u4.jpg"}}]}]},
 {
           "id":"30791e6d1bcf4ac2b02d076fea9594a7",
           "label":"",
@@ -166,7 +199,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/login/u6.png"}},
+            "normal~":"images/login/u7.png"}},
 {
           "id":"f2ed25b509ba4bafbc06792155053172",
           "label":"",
@@ -419,33 +452,35 @@
       "scriptId":"u2"},
     "97114a195b8847d385e135903e100ff9":{
       "scriptId":"u3"},
-    "cd8fa56fb6ec4a2a8fbd508891585a6d":{
+    "e05eb724055c4012b6dd8663bd40d53f":{
       "scriptId":"u4"},
-    "23e5b3c0b73a43239948816bb0dbf75c":{
+    "cd8fa56fb6ec4a2a8fbd508891585a6d":{
       "scriptId":"u5"},
-    "30791e6d1bcf4ac2b02d076fea9594a7":{
+    "23e5b3c0b73a43239948816bb0dbf75c":{
       "scriptId":"u6"},
-    "8d12a003841e4792beb1a0d1fa0b773d":{
+    "30791e6d1bcf4ac2b02d076fea9594a7":{
       "scriptId":"u7"},
-    "f2ed25b509ba4bafbc06792155053172":{
+    "8d12a003841e4792beb1a0d1fa0b773d":{
       "scriptId":"u8"},
-    "b27bfdb621f4467d8542d3373ce649ab":{
+    "f2ed25b509ba4bafbc06792155053172":{
       "scriptId":"u9"},
-    "7f67c8b34bb24c3c8ff5f2e41acc52d3":{
+    "b27bfdb621f4467d8542d3373ce649ab":{
       "scriptId":"u10"},
-    "c351b408b0064855b866f869ab2b7f73":{
+    "7f67c8b34bb24c3c8ff5f2e41acc52d3":{
       "scriptId":"u11"},
-    "d11d9c2c475b4e0c8794b913929767ad":{
+    "c351b408b0064855b866f869ab2b7f73":{
       "scriptId":"u12"},
-    "54913428ab6f4b85ab3a58765f404350":{
+    "d11d9c2c475b4e0c8794b913929767ad":{
       "scriptId":"u13"},
-    "93b6bbdb258941239a3790b06752d9a8":{
+    "54913428ab6f4b85ab3a58765f404350":{
       "scriptId":"u14"},
-    "e22f143e9b9e49ce9c4385d7c8fead4c":{
+    "93b6bbdb258941239a3790b06752d9a8":{
       "scriptId":"u15"},
-    "a9ce4ad3d98345398e9feae18221fcea":{
+    "e22f143e9b9e49ce9c4385d7c8fead4c":{
       "scriptId":"u16"},
-    "642157a2ca324b03ad5c3b9fc9bf492e":{
+    "a9ce4ad3d98345398e9feae18221fcea":{
       "scriptId":"u17"},
+    "642157a2ca324b03ad5c3b9fc9bf492e":{
+      "scriptId":"u18"},
     "f617d5df3a6c43a089a770a3b37fd66f":{
-      "scriptId":"u18"}}});
+      "scriptId":"u19"}}});

@@ -1,6 +1,6 @@
 ﻿$axure.loadCurrentPage({
   "url":"edit.html",
-  "generationDate":new Date(1490788446601.87),
+  "generationDate":new Date(1490938399492.76),
   "isCanvasEnabled":false,
   "variables":["OnLoadVariable"],
   "page":{
@@ -67,7 +67,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/manage_page/u207.png"}},
+            "normal~":"images/manage_page/u208.png"}},
 {
           "id":"cae5ed5a230b492db2cb942e21acbbb3",
           "label":"",
@@ -126,7 +126,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/manage_page/u209.png"}},
+            "normal~":"images/manage_page/u210.png"}},
 {
           "id":"b9aa93d8dfcb4c3592cfd865f28d9dec",
           "label":"",
@@ -435,7 +435,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/manage_page/u227.png"}},
+            "normal~":"images/manage_page/u228.png"}},
 {
           "id":"2f4131f4607f442da40865cbfcb567dd",
           "label":"",
@@ -519,7 +519,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/manage_page/u61.png"}},
+            "normal~":"images/manage_page/u62.png"}},
 {
           "id":"4772b66d2ffc4dac92d7b1aba646ef5e",
           "label":"",
@@ -552,7 +552,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/manage_page/u61.png"}},
+            "normal~":"images/manage_page/u62.png"}},
 {
           "id":"3bb5d9d763204319a3d8911adbe44ab0",
           "label":"",
@@ -585,7 +585,7 @@
               "adaptiveStyles":{
 }}],
           "images":{
-            "normal~":"images/manage_page/u61.png"}},
+            "normal~":"images/manage_page/u62.png"}},
 {
           "id":"7185fd10bcca44c0acd6811d34808b68",
           "label":"",
@@ -636,38 +636,71 @@
           "images":{
             "normal~":"images/manage_page/u2.png"}},
 {
-          "id":"5269cfae93134fbb998692a00fd16823",
-          "label":"",
-          "type":"imageBox",
-          "styleType":"imageBox",
+          "id":"3e13f3ffb96d404a87d81c74d56fed23",
+          "label":"logo",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
           "visible":true,
           "style":{
             "location":{
               "x":300,
               "y":10},
             "size":{
-              "width":100,
-              "height":60}},
+              "width":10,
+              "height":10}},
           "adaptiveStyles":{
 },
-          "objects":[{
-              "id":"be2c518038ea49f79a7d3369e7a69f43",
-              "label":"",
-              "isContained":true,
-              "type":"richTextPanel",
-              "styleType":"paragraph",
-              "visible":true,
-              "style":{
-                "location":{
-                  "x":300,
-                  "y":10},
-                "size":{
-                  "width":100,
-                  "height":60}},
-              "adaptiveStyles":{
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"用例 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"linkWindow",
+                      "description":"在 当前窗口 打开 pc端",
+                      "target":{
+                        "targetType":"page",
+                        "url":"pc端.html",
+                        "includeVariables":true},
+                      "linkType":"current"}]}]}},
+          "tabbable":true,
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"bbdfcaa33bcd4dcc9fe3f3563a0b551a",
+              "label":"状态1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"5269cfae93134fbb998692a00fd16823",
+                  "label":"",
+                  "parentDynamicPanel":"3e13f3ffb96d404a87d81c74d56fed23",
+                  "type":"imageBox",
+                  "styleType":"imageBox",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":100,
+                      "height":60}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"be2c518038ea49f79a7d3369e7a69f43",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"3e13f3ffb96d404a87d81c74d56fed23",
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":100,
+                          "height":60}},
+                      "adaptiveStyles":{
 }}],
-          "images":{
-            "normal~":"images/pc端/u4.jpg"}},
+                  "images":{
+                    "normal~":"images/pc端/u4.jpg"}}]}]},
 {
           "id":"47d9ac8602d9467dbf72a588a3742af5",
           "label":"",
@@ -780,11 +813,13 @@
       "scriptId":"u32"},
     "caac17f092864780a90399423dfe9905":{
       "scriptId":"u33"},
-    "5269cfae93134fbb998692a00fd16823":{
+    "3e13f3ffb96d404a87d81c74d56fed23":{
       "scriptId":"u34"},
-    "be2c518038ea49f79a7d3369e7a69f43":{
+    "5269cfae93134fbb998692a00fd16823":{
       "scriptId":"u35"},
-    "47d9ac8602d9467dbf72a588a3742af5":{
+    "be2c518038ea49f79a7d3369e7a69f43":{
       "scriptId":"u36"},
+    "47d9ac8602d9467dbf72a588a3742af5":{
+      "scriptId":"u37"},
     "75e099bbc6324e2289a494ff90111b95":{
-      "scriptId":"u37"}}});
+      "scriptId":"u38"}}});
