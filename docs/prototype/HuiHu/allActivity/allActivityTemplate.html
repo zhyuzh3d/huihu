@@ -1,0 +1,41 @@
+
+    <div class="panel panel-info">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 allActivityHead text-center">
+                活 动 列 表
+            </div>
+        </div>
+        <div class="panel-heading headPosition">
+            <div class="row headFont">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">轮播显示</div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">活动名称</div>
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">活动性质</div>
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">活动时间</div>
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-center">编辑</div>
+            </div>
+        </div>
+        <div class="panel-body contentPosition" ng-repeat="activity in allActivity ">
+            <div class="row  allActivityTitle" >
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 text-left checkboxPosition">
+                    <input class="checkboxSize" type="checkbox" ng-checked="activity.checked">
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" ng-bind="activity.name"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 " ng-bind="activity.type"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 " ng-bind="activity.time"></div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 text-right"> <a href="javascript:void 0" ng-click="edit(activity.id)">修改</a></div>
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a href="#">删除</a></div>
+            </div>
+        </div>
+        <div class="panel-body contentPosition">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <button class="button" style="vertical-align:middle"><span>去显示 </span></button>
+                </div>
+                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+

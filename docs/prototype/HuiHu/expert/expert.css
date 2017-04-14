@@ -1,0 +1,24 @@
+.add{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.addPsition{
+    padding-top: 10px;
+}
+.btnsize{
+    width: 100px;
+}
+.type{
+    display: inline-block;
+    border:solid 1px grey;
+    margin-top: 5px;
+    padding: 5px 10px 5px 10px;
+}
+.type:hover{
+    cursor: default;
+    border-color: red;
+}
+.active{
+    border-color: red;
+}

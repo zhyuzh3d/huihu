@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font: normal 100% sans-serif;
+    box-sizing: border-box;
+}
+.headcss{
+    height: 80px;
+    background-color: white !important;
+}
+.logoposition{
+    height: 80px;
+    line-height: 80px;
+}
+
+.inputPosition{
+    margin: 80px 0 50px 0 ;
+}
+.inputPosition1{
+    margin-bottom: 40px;
+}
+.inputPosition2{
+    margin-bottom: 100px;
+}
+.error{
+    border: solid 1px red;
+}

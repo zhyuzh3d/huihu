@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="editCss.css">
+</head>
+<body>
+<!--页头-->
+<nav class="navbar navbar-default navbar-fixed-top headcss">
+    <div class="container">
+        <div class="row logoposition">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                <img src="../images/logo1.png" height="60px" />
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 remposition">
+                注销
+            </div>
+        </div>
+    </div>
+</nav>
+<!--编辑修改的主内容区-->
+
+<div class="container" style="margin-top: 100px;width: 50%">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading" style="font-size: 1.9em">编 辑 活 动 信 息</div>
+                <form class="form-horizontal" enctype="multipart/form-data">
+                    <div class="panel-body" >
+                        <div class="row divposition">
+                            <div class="form-group">
+                                <label for="icon" class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label editfont">
+                                    活动LOGO:
+                                </label>
+                                <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6" style="padding-top: 7px">
+                                    <input type="file" id="icon">
+                                </div>
+                                <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4"></div>
+                            </div>
+                        </div>
+                        <div class="row divposition">
+                            <div class="form-group">
+                                <label for="name" class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label editfont">
+                                    活动名称:
+                                </label>
+                                <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+                                    <input type="text " class="form-control" id="name">
+                                </div>
+                                <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4"></div>
+                            </div>
+                        </div>
+                        <div class="row divposition">
+                            <div class="form-group">
+                                <label for="time" class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label editfont">
+                                    主办时间:
+                                </label>
+                                <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+                                    <input type="datetime-local" class="form-control" id="time">
+                                </div>
+                                <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4"></div>
+                            </div>
+                        </div>
+                        <div class="row divposition">
+                            <div class="form-group">
+                                <label for="place" class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label editfont">
+                                    活动地点:
+                                </label>
+                                <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+                                    <input type="text " class="form-control" id="place">
+                                </div>
+                                <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4"></div>
+                            </div>
+                        </div>
+                        <div class="row divposition">
+                            <div class="form-group">
+                                <label for="type" class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label editfont">
+                                    活动性质:
+                                </label>
+                                <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6">
+                                    <input type="text " class="form-control" id="type">
+                                </div>
+                                <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4"></div>
+                            </div>
+                        </div>
+                        <div class="row divposition">
+                            <div class="form-group">
+                                <label for="detail" class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label detail editfont" >
+                                    活动简介:
+                                </label>
+                                <div class="col-sm-8 col-xs-8 col-md-8 col-lg-8">
+                                    <textarea type="text " class="form-control textdetail" id="detail" ></textarea>
+                                </div>
+                                <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2" ></div>
+                            </div>
+                        </div>
+                        <div class="row divposition">
+                            <label  class="col-sm-2 col-xs-2 col-md-2 col-lg-2 control-label editfont">
+                                活动图片:
+                            </label>
+                            <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3" style="padding-top: 7px">
+                                <input type="file" id="img1" >
+                                <br>
+                                <input type="file" id="img2" >
+                            </div>
+                            <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3" style="padding-top: 7px">
+                                <input type="file" id="img3" >
+                                <br>
+                                <input type="file" id="img4" >
+                            </div>
+
+                            <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4"></div>
+                        </div>
+                    </div>
+                    <div class="panel-body" >
+                        <div class="row">
+                            <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4"></div>
+                            <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2">
+                                <input type="submit" class="btn btn-primary btnsize " value="提交">
+                            </div>
+                            <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2">
+                                <input type="reset" class="btn btn-primary btnsize " value="重置">
+                            </div>
+                            <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var loc = location.href;
+    var n1 = loc.length;//地址的总长度
+    var n2 = loc.indexOf("=");//取得=号的位置
+    var id = decodeURI(loc.substr(n2+1, n1-n2));//从=号后面的内容
+
+
+</script>
+
+
+</body>
+</html>

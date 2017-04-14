@@ -1,0 +1,50 @@
+
+<div class="panel  panel-info">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 allActivityHead text-center">
+            普 通 用 户 列 表
+        </div>
+    </div>
+    <div class="panel-heading headPosition">
+        <div class="row headFont">
+            <div class="col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+            <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2">用户名</div>
+            <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3 ">联系方式</div>
+            <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3 ">公司地址</div>
+            <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2 text-center">操作</div>
+            <div class="col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+
+        </div>
+    </div>
+    <div class="panel-body contentPosition" ng-repeat="p in user |paging:currentPage*listsPerPage | limitTo:listsPerPage">
+        <div class="row  allActivityTitle" >
+            <div class="col-sm-1 col-xs-1 col-md-1 col-lg-1"></div>
+            <div class="col-sm-2 col-xs-2 col-md-2 col-lg-2" ng-bind="p.name"></div>
+            <div  class="col-sm-3 col-xs-3 col-md-3 col-lg-3 " ng-bind="p.phone"></div>
+            <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3 " ng-bind="p.company"></div>
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 text-right"> <a href="#">删除</a></div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"><a href="#">设为专家</a></div>
+
+        </div>
+    </div>
+
+    <div class="panel-body contentPosition">
+        <div class="row">
+            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
+            <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                    <a class="step prevLink" ng-click="prevPage()">上一页</a>
+                    <!--<a ng-class="{true:'currentStep',false:'step'}[num==currentPage]" ng-repeat="num in pageNum" ng-click="setPage(num)">{{num+1}}</a>  &lt;!&ndash; ng-repeat 动态生成页码 &ndash;&gt;-->
+                    <a class="step nextLink" ng-click="nextPage()">下一页</a>
+                 <!--<span style="margin-left: 5px" >当前页数：</span><span ng-bind="skip"></span>-->
+
+                <span style="margin-left: 5px" >跳转到：</span>
+                 <input type="text" style="width: 25px;height: 25px" ng-model="num">
+                <a ng-click="setPage(num-2)" class="skip">GO</a>
+
+                <span style="margin-left: 5px;font-size: 1.2em">共{{pages}}页</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+

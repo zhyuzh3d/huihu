@@ -1,0 +1,35 @@
+[
+  {
+    "id": "001",
+    "name": "智能硬件",
+    "author": "xx(xxxx公司,CEO,xxx)",
+    "address": "苏州独墅湖高教区",
+    "start_data": "2017/4/6 9:00am",
+    "end_data": "2017/4/6 3:00pm",
+    "icon": "part3/01.png",
+    "number":"已有180人报名",
+    "now_status":"火热进行中"
+  },
+  {
+    "id": "002",
+    "name": "智能硬件",
+    "author": "xxxxx(xx公司,CEO,xxx)",
+    "address": "江苏省苏州独墅湖高教区",
+    "start_data": "2017/4/8 10:00am",
+    "end_data": "2017/4/8 4:00pm",
+    "icon": "part3/02.png",
+    "number":"已有180人报名",
+    "now_status":"火热进行中"
+  },
+  {
+    "id": "003",
+    "name": "智能家居",
+    "author": "xx(xx公司,CEO,xxx)",
+    "address": "苏州独墅湖高教区",
+    "start_data": "2017/4/8 10:00am",
+    "end_data": "2017/4/8 4:00pm",
+    "icon": "part3/03.png",
+    "number":"已有180人报名",
+    "now_status":"火热进行中"
+  }
+]

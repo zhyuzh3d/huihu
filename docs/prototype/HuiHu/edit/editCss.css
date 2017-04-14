@@ -1,0 +1,37 @@
+
+body{
+    font:  normal 100% sans-serif;
+}
+.headcss{
+    height: 80px;
+    background-color: white !important;
+}
+.logoposition{
+    height: 80px ;
+    line-height: 80px;
+}
+.remposition{
+    font-size:1.7em;
+}
+.remposition:hover{
+    cursor: default;
+    color: #6ecbcc;
+}
+
+.detail{
+    /*padding-right: 23px;*/
+}
+.divposition .textdetail{
+    /*margin-left: -10px;*/
+    height: 300px;
+    overflow-y: auto;
+}
+.divposition{
+    margin-bottom: 15px;
+}
+.btnsize{
+    width: 100px;
+}
+.editfont{
+    font-size: 1.5em;
+}

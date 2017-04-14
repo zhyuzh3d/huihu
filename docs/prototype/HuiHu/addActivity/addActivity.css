@@ -1,0 +1,17 @@
+.addhead{
+    font-size: 1.4em;
+}
+.detail{
+   /*padding-right: 23px;*/
+}
+.divposition .textdetail{
+     /*margin-left: -10px;*/
+    height: 300px;
+    overflow-y: auto;
+}
+.divposition{
+    margin-bottom: 15px;
+}
+.btnsize{
+    width: 100px;
+}

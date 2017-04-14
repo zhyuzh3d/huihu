@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>管理员管理界面</title>
+    <link rel="stylesheet" href="css/manage.css">
+
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-3.3.7-dist/js/jquery-3.1.1.min.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="../angular-1.6.3/angular.js"></script>
+    <script src="../angular-1.6.3/angular-route.js"></script>
+    <!--管理页面路由配置-->
+    <script src="manage_js/manage_module.js"></script>
+    <script src="manage_js/manage_config.js"></script>
+    <!--全部活动页面指令-->
+    <script src="../allActivity/allActivityModule.js"></script>
+    <script src="../allActivity/allActivityDirective.js"></script>
+    <link rel="stylesheet" href="../allActivity/css/allActivity.css">
+
+   <!-- <script src="../turnPage/turnPage_module.js"></script>
+    <script src="../turnPage/turnPage_directive.js"></script>-->
+    <!--普通用户指令-->
+    <link rel="stylesheet" href="../people/people.css">
+    <script src="../people/people_module.js"></script>
+    <script src="../people/people_directive.js"></script>
+    <!--专家-->
+    <script src="../expert/expert_module.js"></script>
+    <script src="../expert/expert_directive.js"></script>
+    <link rel="stylesheet" href="../expert/expert.css">
+    <!--添加活动-->
+    <script src="../addActivity/addActivity_module.js"></script>
+    <script src="../addActivity/addActivity_directive.js"></script>
+    <link rel="stylesheet" href="../addActivity/addActivity.css">
+
+
+    <base href="/HuiHu/manage/">
+</head>
+<body ng-app="manageApp">
+
+<nav class="navbar navbar-default navbar-fixed-top headcss">
+    <div class="container">
+       <div class="row logoposition">
+           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+               <img src="../images/logo1.png" height="60px" />
+           </div>
+           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+
+           </div>
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+           </div>
+           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 remposition">
+               注销
+           </div>
+       </div>
+    </div>
+</nav>
+
+<!--主内容区div开始-->
+<div class="container-fluid firstPosition" style="width: 90%">
+    <!--左侧导航区div开始-->
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="list-group  ">
+            <a href="#" class="list-group-item list-group-item-info  l_activity_manage">
+                <div ><img src="../images/activity.png" alt="" class="l_manage_img"></div>
+                <div class="l_activity_manage_font">活动管理</div>
+            </a>
+            <a href="/HuiHu/manage/" class="list-group-item">全部活动</a>
+            <a href="/HuiHu/manage/addActivity" class="list-group-item">添加活动</a>
+
+            <a href="#" class="list-group-item list-group-item-info l_user_manage ">
+                <div><img src="../images/user.png" alt=""  class="l_manage_img"></div>
+                <div class="l_user_manage_font">用户管理</div>
+            </a>
+            <a href="/HuiHu/manage/expert" class="list-group-item">专家</a>
+            <a href="/HuiHu/manage/user" class="list-group-item">普通用户</a>
+        </div>
+    </div>
+    <!--右侧导航区div开始-->
+    <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" ng-view>
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
